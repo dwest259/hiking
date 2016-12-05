@@ -507,10 +507,13 @@ a {
 }
 
 .large-hero__title {
+  font-family: 'Chelsea Market', cursive;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, .4);
   font-weight: 300;
-  color: #2f5572;
+  color: #fff;
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 2rem;
+  opacity:.8;
 }
 
 @media (min-width: 530px) {
@@ -521,9 +524,10 @@ a {
 }
 
 .large-hero__subtitle {
-  font-weight: 300;
-  color: #2f5572;
-  font-size: 1.5rem;
+  font-weight: 500;
+  color: #d59541;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, .4);
   margin: 0;
 }
 
